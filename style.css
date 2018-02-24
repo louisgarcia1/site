@@ -1,0 +1,332 @@
+
+
+.menu{
+	width:100%;
+	height:70px;
+	position:fixed;
+
+	
+}
+
+.fondmenu{
+	width:100%;
+	height:70px;
+	background:white;
+	position:fixed;
+	opacity: 0.8;
+	
+}
+.lien{
+	color:black;
+	font-size: 25px;
+	margin-right: 10px; 
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 20px;
+	z-index: 100;
+}
+
+.vert:hover{
+	color: green;
+	text-decoration: none;
+}
+
+.jaune:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.rouge:hover{
+	color: red;
+	text-decoration: none;
+}
+
+
+
+.optionsmenu{
+	margin-left: 1000px;
+	position: absolute;
+  	top: 50%; /* poussé de la moitié de hauteur du référent */
+  	transform: translateY(-50%);
+  	z-index: 100;
+
+
+}
+
+
+#nom_liste{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 100px;
+	color: #128B33;
+	line-height: -25px;
+	position: absolute;
+  	top: 50%; /* poussé de la moitié de hauteur du référent */
+  	transform: translateY(-50%);
+  	text-shadow: black 1px 1px 1px;
+  	opacity: 1;
+  	z-index: 100;
+}
+
+#logo{
+	height:70px;
+	width:70px;
+	position: fixed;
+	z-index: 100;
+}
+
+.baniere{
+	height: 500px;
+	width:100%;
+}
+
+.presentation1{
+	height: 1600px;
+	width:100%;
+	background-color: #008245;
+}
+
+#espace{
+	width: 100%;
+	height: 75px;
+}
+.presentation{
+	height: 1600px;
+	width:100%;
+	background-color: #008245;
+}
+
+.decouverte{
+	width: 75%;
+	height: 200px;
+	background-color: #538069;
+	border-radius: 10%;
+
+
+}
+
+.footer{
+	height: 300px;
+	width:100%;
+	background-color: #1D2C36;
+	color: grey;
+}
+
+.foot{
+	height: 150px;
+	width:100%;
+	text-align: center;
+	position: relative;
+  	top: 50%; /* poussé de la moitié de hauteur du référent */
+  	transform: translateY(-50%);
+  	text-decoration: none;
+
+}
+
+.icons{
+	color: #626061;
+	font-size: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.icons:hover{
+	color: #ACB5BE;
+	font-size: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+/*Parti pour contact*/
+.titre{
+	text-align: center;
+	line-height: 270px;
+	color: yellow;
+	font-size: 50px
+	
+}
+
+h1{
+	text-shadow: black 3px 3px 2px;
+
+}
+
+.map{
+	line-height: 40px;
+	margin-top: 30px;
+	border: solid 5px black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 610px;
+	height: 460px;
+}
+
+
+
+.question{
+	margin-right: auto;
+	text-align: center;
+	line-height: 30px;
+	margin-top: -110px;
+	color: yellow;
+	text-shadow: black 3px 3px 3px;
+}
+
+
+.trouver{
+
+	color: yellow;
+	text-align: center;
+	text-shadow: black 3px 3px 3px;
+	line-height: 30px;
+}
+
+.stalker{
+	margin-top: 60px;
+}
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$Parti pour membres$$$$$$$$$$$$$$$$$$$$*/
+
+.ttlemonde{
+	height: 2000px;
+	width: 100%;
+	background-color: #0F7D41
+}
+
+.bureau{
+	height: 400px;
+	width: 100%;
+}
+.ban{
+	height: 70px;
+	width: 100%;
+	background-color: #156939;
+}
+.nom_pole{
+	z-index: 100;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+	margin-left: 100px;
+}
+.partenariat{
+	height: 400px;
+	width: 100%;
+}
+.logistique{
+	height: 400px;
+	width: 100%;
+}
+.communication{
+	height: 400px;
+	width: 100%;
+}
+
+.evennement{
+	height: 400px;
+	width: 100%;
+}
+
+/***************HOVER pour photos**************/
+
+.fond{
+	background-color: #0F7D41;
+	width:100%;
+	height: 2000px;
+}
+
+.banieretitre{
+	background-color: #156939;
+	height: 60px;
+	width: 100%;
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+	padding-left: 100px;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.galerie{
+
+	align-items: center;
+	justify-content: center;
+	padding: 35px;
+
+}
+
+.photo{
+
+	display: inline-flex;
+	justify-content: center;
+	height:100%;
+	width: 100%;
+
+	
+}
+.photo:hover {
+	transform: scale(1.4);
+	transition: all 0.5s ease-in;
+}
+
+.imagecadre{
+	width: 200px;
+	height: 230px;
+	position: relative;
+	overflow: hidden;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 5px ;
+	color: #156939;
+	margin-right: 30px;
+
+}
+.overlay{
+	position: absolute;
+	height:180px;
+	width: 150px;
+	transition: all .3s ease;
+	opacity: 0;
+	background-color: #eee;
+
+}
+.imagecadre:hover	.overlay{
+	opacity: 0.8;
+
+}
+.text{
+	color: white;
+	position: absolute;
+	top:73%;
+	left:15%;
+			
+	font-weight: bold;
+	font-size: 20px;
+	opacity: 0;
+}
+.imagecadre:hover .text{
+	transition: all 1s ease-in;
+	opacity: 1;
+}
+.overlaytop{
+	height: 0%;
+	width: 100%;
+	bottom: 0;
+}
+
+.imagecadre:hover	.overlaytop{
+	height: 40%;
+	transition: all 0.5s ease-in;
+}
+
+.zebi{
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+	text-decoration: none;
+	width: 100px; 
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover effect</title>
+
+	<style type="text/css">
+		.container{
+			width: 500px;
+			height: 500px;
+			position: absolute;
+			margin: 150px;
+			cursor: pointer;
+			overflow: hidden;	
+		}
+		img{
+			width: 100%;
+			height: 100%;
+			transition: all 1s ease-in;
+		}
+		.container:hover img{
+			transform: scale(1.4);
+			transition: all 1s ease-in;		
+		}
+		span{
+			position: absolute;
+			font-size: 30px;
+			color: white;	
+			left: 50%;
+			transform: translate(-50%);
+			bottom: 100px;
+			right: 0px;
+			opacity: 0;
+			font-weight: bold;
+		}
+
+		.container:hover span{
+			opacity: 1;
+			transition: all 1s ease-in;
+		}
+		
+
+		.image3{
+			display: block;
+			height:100%;
+			width: 100%;
+		}
+		.essaie{
+			position: relative;
+			height:200px;
+			width: 200px;
+			display: inline-block;
+			overflow: hidden;
+		}
+		img{
+			width: 100%;
+			height: 100%;
+			transition: all 1s ease-in;
+		}
+		.overlay{
+			position: absolute;
+			height:100%;
+			width: 100%;
+			transition: all .3s ease;
+			opacity: 0;
+			background-color: #eee;
+
+		}
+		.essaie:hover	.overlay{
+			opacity: 0.8;
+
+		}
+		.text{
+			color: white;
+			position: absolute;
+			top:73%;
+			left:15%;
+			
+			font-weight: bold;
+			font-size: 20px;
+			opacity: 0;
+		}
+		.essaie:hover .text{
+			transition: all 1s ease-in;
+			opacity: 1;
+		}
+		.overlaytop{
+			height: 0%;
+			width: 100%;
+			bottom: 0;
+			left:0;
+		}
+		.essaie:hover	.overlaytop{
+			height: 40%;
+			transition: all 1s ease-in;
+		}
+
+		.essaie:hover img{
+			transform: scale(1.4);
+			transition: all 1s ease-in;
+		}
+	</style>
+</head>
+<body>
+	<div class="container"> 
+		<img src="louis.png">
+		<div class="overlaytop">
+			
+		</div>
+		<span>Louis Garcia</span>
+		
+	</div>
+
+	<div class="essaie">
+		<img src="louis.png">
+		<div class="overlay overlaytop">
+			
+		</div>
+		<div class="text">Louis Garcia</div>
+		
+	</div>
+</body>
+</html>
